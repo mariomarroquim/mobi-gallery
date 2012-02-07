@@ -1,0 +1,20 @@
+<div data-role="footer" data-position="fixed" data-theme="a">
+  <div data-role="navbar">
+    <ul>
+      <% if ["fun_curiosities", "cars"].include? action_name -%>
+  	    <li>
+  	      <%= link_to "Send by email",
+              	      {:action => :send_by_email, :type => action_name, :file => @current_file},
+              	      "data-icon" => "star" -%>
+	      </li>
+      <% end -%>
+
+	    <li>
+        <%= link_to "Terms", {:controller => :pages, :action => :terms}, "data-icon" => "alert" -%>
+      </li>
+	    <li>
+	      <%= link_to "Contact us", {:controller => :pages, :action => :contact_us}, "data-icon" => "info" -%>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+[02/07/12 10:03:08 -0200 PC-MARIO (2401)] INFO : Dispatcher: webrick
+[02/07/12 10:03:08 -0200 PC-MARIO (2401)] INFO : Application: MobiGallery
+[02/07/12 10:03:08 -0200 PC-MARIO (2401)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[02/07/12 10:03:08 -0200 PC-MARIO (2401)] INFO : New Relic RPM Agent 2.13.2 Initialized: pid = 2401
+[02/07/12 10:03:08 -0200 PC-MARIO (2401)] INFO : Agent Log found in /home/mariomarroquim/Pessoal/mobigallery/log/newrelic_agent.log
+[02/07/12 10:22:33 -0200 PC-MARIO (2738)] INFO : Dispatcher: webrick
+[02/07/12 10:22:33 -0200 PC-MARIO (2738)] INFO : Application: MobiGallery
+[02/07/12 10:22:33 -0200 PC-MARIO (2738)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[02/07/12 10:22:33 -0200 PC-MARIO (2738)] INFO : New Relic RPM Agent 2.13.2 Initialized: pid = 2738
+[02/07/12 10:22:33 -0200 PC-MARIO (2738)] INFO : Agent Log found in /home/mariomarroquim/Pessoal/mobigallery/log/newrelic_agent.log

@@ -1,0 +1,19 @@
+<div data-role="header" data-position="fixed">
+	<h1>MobiGallery ;)</h1>
+</div>
+
+<div data-role="content">
+
+  <%= flashes -%>
+
+  <ul data-role="listview" data-inset="true" data-theme="b">
+    <li>
+      <%= link_to "Fun, Curiosities (#{@number_files_fun_curiosities})", :action => :fun_curiosities -%>
+    </li>
+    <li>
+      <%= link_to "Cars (#{@number_files_cars})", :action => :cars -%>
+    </li>
+  </ul>
+</div>
+
+<%= render :partial => "rodape" -%>

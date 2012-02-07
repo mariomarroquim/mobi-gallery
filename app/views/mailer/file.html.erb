@@ -1,0 +1,20 @@
+<h3><%= h(@sender_name) -%> sent you a picture from MobiGallery ;)</h3>
+
+<h5>
+  Please, click in the link below:
+  <br/>
+  <strong><%= link_to full_url(@type, @file) -%></strong>
+</h5>
+
+<p>
+  <br/>
+  <br/>
+  --
+  <strong>
+    XXX.com
+    <br/>
+    <%= link_to "http://www.XXX.com", "http://www.XXX.com" -%>
+    <br/>
+  </strong>
+  <small>Please, do not reply this message.</small>
+</p>

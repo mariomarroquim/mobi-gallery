@@ -1,0 +1,16 @@
+<h3><%= h(@sender_name) -%> (<%= h(@sender_email) -%>) sent you a message from MobiGallery ;)</h3>
+
+<%= simple_format(h(@message)) -%>
+
+<p>
+  <br/>
+  <br/>
+  --
+  <strong>
+    XXX.com
+    <br/>
+    <%= link_to "http://www.XXX.com", "http://www.XXX.com" -%>
+    <br/>
+  </strong>
+  <small>Please, do not reply this message.</small>
+</p>

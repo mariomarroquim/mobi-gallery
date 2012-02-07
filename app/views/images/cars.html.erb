@@ -1,0 +1,23 @@
+<div data-role="header" data-position="fixed">
+	<h1>Cars</h1>
+
+  <%= render :partial => "home_button" -%>
+
+	<%= link_to "Next",
+            	{:action => :cars, :file => @next_file},
+            	"data-prefetch" => true,
+            	"data-theme"=>"e",
+            	"data-icon" => "arrow-r",
+            	:class => "ui-btn-right" -%>
+</div>
+
+<div data-role="content">
+  <%= flashes -%>
+
+  <div class="picture">
+    <%= image_tag "cars/#{@current_file}" -%>
+    <%= render :partial => "file_info" -%>
+  </div>
+</div>
+
+<%= render :partial => "rodape" -%>

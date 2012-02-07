@@ -1,0 +1,37 @@
+<div data-role="header" data-position="fixed">
+	<h1>Contact us</h1>
+  <%= render :partial => "images/back_button" -%>
+</div>
+
+<div data-role="content">
+
+  <%= flashes -%>
+
+  <p>
+    Please, fill the form above and we will reply to you as soon as possible.
+  </p>
+
+  <% form_tag(url_for(:action => :send_email)) do -%>
+
+    <%= label_tag :sender_name, "Your name:" -%>
+    <%= text_field_tag :sender_name -%>
+
+    <br/>
+
+    <%= label_tag :sender_email, "Your email:" -%>
+    <%= text_field_tag :sender_email, "", :type => "email" -%>
+
+    <br/>
+
+    <%= label_tag :message, "Message:" -%>
+    <%= text_area_tag :message -%>
+
+    <br/>
+
+    <%= submit_tag "Send", "data-icon" => "check", "data-theme" => "e" -%>
+
+  <% end -%>
+
+</div>
+
+<%= render :partial => "images/rodape" -%>

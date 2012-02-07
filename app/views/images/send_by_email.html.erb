@@ -1,0 +1,35 @@
+<div data-role="header" data-position="fixed">
+	<h1>Send by email</h1>
+  <%= render :partial => "images/back_button" -%>
+</div>
+
+<div data-role="content">
+
+  <%= flashes -%>
+
+  <p>
+    Please, fill the form above and we will send your friend an email with the link.
+  </p>
+
+  <% form_tag(url_for(:action => :send_file)) do -%>
+
+    <%= label_tag :sender_name, "Your name:" -%>
+    <%= text_field_tag :sender_name -%>
+
+    <br/>
+
+    <%= label_tag :receiver_email, "Your friend's email:" -%>
+    <%= text_field_tag :receiver_email, "", :type => "email" -%>
+
+    <br/>
+
+    <%= hidden_field_tag :type, params[:type] -%>
+    <%= hidden_field_tag :file, params[:file] -%>
+
+    <%= submit_tag "Send", "data-icon" => "check", "data-theme" => "e" -%>
+
+  <% end -%>
+
+</div>
+
+<%= render :partial => "images/rodape" -%>

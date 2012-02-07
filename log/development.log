@@ -1,0 +1,1223 @@
+Starting the New Relic Agent.
+NewRelic Agent Developer Mode enabled.
+To view performance information, go to http://localhost:3000/newrelic
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:05:46) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (2.3ms)
+Completed in 190ms (View: 96, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#question_adult_content (for 127.0.0.1 at 2012-02-07 10:05:48) [GET]
+Rendering template within layouts/application
+Rendering images/question_adult_content
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://localhost/images/question_adult_content]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:05:51) [GET]
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (1.1ms)
+Rendered images/_file_info (1.3ms)
+Rendered images/_rodape (1.4ms)
+Completed in 96ms (View: 30, DB: 0) | 200 OK [http://localhost/images/fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:05:52) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.2ms)
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:05:57) [GET]
+  Parameters: {"file"=>"1.gif"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.7ms)
+Completed in 75ms (View: 10, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=1.gif]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:05:59) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.6ms)
+Completed in 78ms (View: 11, DB: 2) | 200 OK [http://localhost/images/fun_curiosities?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:06:06) [GET]
+  Parameters: {"file"=>"7.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.5ms)
+Completed in 87ms (View: 17, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=7.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:06:25) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.8ms)
+Completed in 76ms (View: 10, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:06:37) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.3ms)
+Completed in 26ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#question_adult_content (for 127.0.0.1 at 2012-02-07 10:06:38) [GET]
+Rendering template within layouts/application
+Rendering images/question_adult_content
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://localhost/images/question_adult_content]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:06:42) [GET]
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.9ms)
+Rendered images/_file_info (1.3ms)
+Rendered images/_rodape (1.8ms)
+Completed in 77ms (View: 11, DB: 0) | 200 OK [http://localhost/images/fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:06:42) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (1.2ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:08:12) [GET]
+  Parameters: {"type"=>"fun_curiosities", "file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.9ms)
+Rendered images/_rodape (0.9ms)
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=2.jpeg&type=fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:08:19) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 14ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#terms (for 127.0.0.1 at 2012-02-07 10:08:24) [GET]
+Rendering template within layouts/application
+Rendering pages/terms
+Rendered images/_back_button (0.6ms)
+Rendered images/_rodape (0.8ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/terms]
+Starting the New Relic Agent.
+NewRelic Agent Developer Mode enabled.
+To view performance information, go to http://localhost:3000/newrelic
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:23:03) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.9ms)
+Completed in 38ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#terms (for 127.0.0.1 at 2012-02-07 10:23:09) [GET]
+Rendering template within layouts/application
+Rendering pages/terms
+Rendered images/_back_button (1.4ms)
+Rendered images/_rodape (0.8ms)
+Completed in 94ms (View: 93, DB: 0) | 200 OK [http://localhost/pages/terms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:23:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#send_email (for 127.0.0.1 at 2012-02-07 10:23:21) [POST]
+  Parameters: {"sender_email"=>"", "commit"=>"Send", "authenticity_token"=>"buyCmrMrjgm6C7JXhYbCyXoKbli6QNgd3prs0c83+gs=", "message"=>"", "sender_name"=>""}
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.6ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/send_email]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:23:28) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.7ms)
+Rendered images/_rodape (0.8ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#terms (for 127.0.0.1 at 2012-02-07 10:23:30) [GET]
+Rendering template within layouts/application
+Rendering pages/terms
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.7ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/terms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:34) [GET]
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.9ms)
+Rendered images/_file_info (1.3ms)
+Rendered images/_rodape (1.4ms)
+Completed in 85ms (View: 20, DB: 0) | 200 OK [http://localhost/images/fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:35) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:43) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (15.2ms)
+Completed in 148ms (View: 76, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=3.jpg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:45) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (2.3ms)
+Rendered images/_rodape (1.6ms)
+Completed in 77ms (View: 11, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=5.jpg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:46) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (2.3ms)
+Completed in 75ms (View: 10, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:47) [GET]
+  Parameters: {"file"=>"7.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.3ms)
+Completed in 73ms (View: 8, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=7.jpg]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:48) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.4ms)
+Completed in 74ms (View: 8, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:49) [GET]
+  Parameters: {"file"=>"7.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 72ms (View: 7, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=7.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:50) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 8, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:50) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.2ms)
+Rendered images/_rodape (1.2ms)
+Completed in 74ms (View: 9, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:51) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.4ms)
+Completed in 141ms (View: 76, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:23:52) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.5ms)
+Completed in 76ms (View: 10, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:23:56) [GET]
+  Parameters: {"type"=>"fun_curiosities", "file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.6ms)
+Rendered images/_rodape (0.8ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=2.jpeg&type=fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_file (for 127.0.0.1 at 2012-02-07 10:24:00) [POST]
+  Parameters: {"receiver_email"=>"", "commit"=>"Send", "authenticity_token"=>"buyCmrMrjgm6C7JXhYbCyXoKbli6QNgd3prs0c83+gs=", "type"=>"fun_curiosities", "file"=>"2.jpeg", "sender_name"=>""}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_file]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:24:03) [GET]
+  Parameters: {"type"=>"fun_curiosities", "file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=2.jpeg&type=fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:24:04) [GET]
+  Parameters: {"file"=>"2.jpeg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (4.5ms)
+Completed in 77ms (View: 12, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=2.jpeg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:24:08) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.8ms)
+Rendered images/_rodape (0.8ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:15) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 78ms (View: 12, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:15) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (1.5ms)
+Completed in 75ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:19) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.8ms)
+Completed in 76ms (View: 10, DB: 1) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:20) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.2ms)
+Completed in 73ms (View: 8, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:21) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:24) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 8, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:25) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 72ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:24:28) [GET]
+  Parameters: {"type"=>"cars", "file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.7ms)
+Rendered images/_rodape (0.9ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=5.jpg&type=cars]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:32) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.1ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.6ms)
+Completed in 78ms (View: 12, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:24:33) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.1ms)
+Completed in 77ms (View: 7, DB: 1) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:26:12) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.6ms)
+Completed in 75ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:26:13) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (1.7ms)
+Rendered images/_rodape (1.6ms)
+Completed in 77ms (View: 9, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:26:38) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 79ms (View: 13, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:26:39) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.6ms)
+Completed in 48ms (View: 7, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:26:39) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.2ms)
+Completed in 75ms (View: 8, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:03) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.5ms)
+Completed in 81ms (View: 16, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:27:04) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.1ms)
+Completed in 33ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:04) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.4ms)
+Completed in 84ms (View: 16, DB: 0) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:16) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.3ms)
+Completed in 84ms (View: 18, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:27:17) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.2ms)
+Completed in 39ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:17) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (4.7ms)
+Completed in 79ms (View: 12, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:24) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.9ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.1ms)
+Completed in 75ms (View: 8, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:26) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (1.5ms)
+Completed in 76ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:31) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.1ms)
+Completed in 81ms (View: 15, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:27:32) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.1ms)
+Completed in 117ms (View: 90, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:32) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.7ms)
+Rendered images/_file_info (1.4ms)
+Rendered images/_rodape (2.1ms)
+Completed in 86ms (View: 19, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:36) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 74ms (View: 8, DB: 1) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:41) [GET]
+  Parameters: {"file"=>"1.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.2ms)
+Completed in 74ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=1.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:42) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 1) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:43) [GET]
+  Parameters: {"file"=>"1.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=1.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:27:45) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:27:49) [GET]
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/images/fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:27:50) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.2ms)
+Completed in 40ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:27:50) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (1.2ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (1.5ms)
+Completed in 79ms (View: 13, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=5.jpg]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:27:52) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.2ms)
+Completed in 75ms (View: 8, DB: 1) | 200 OK [http://localhost/images/fun_curiosities?file=4.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:27:53) [GET]
+  Parameters: {"file"=>"7.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 74ms (View: 7, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=7.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:27:58) [GET]
+  Parameters: {"type"=>"fun_curiosities", "file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=4.jpg&type=fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_file (for 127.0.0.1 at 2012-02-07 10:27:59) [POST]
+  Parameters: {"receiver_email"=>"", "commit"=>"Send", "authenticity_token"=>"buyCmrMrjgm6C7JXhYbCyXoKbli6QNgd3prs0c83+gs=", "type"=>"fun_curiosities", "file"=>"4.jpg", "sender_name"=>""}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.9ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_file]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:28:02) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#send_email (for 127.0.0.1 at 2012-02-07 10:28:04) [POST]
+  Parameters: {"sender_email"=>"", "commit"=>"Send", "authenticity_token"=>"buyCmrMrjgm6C7JXhYbCyXoKbli6QNgd3prs0c83+gs=", "message"=>"", "sender_name"=>""}
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/send_email]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:28:06) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.8ms)
+Rendered images/_rodape (0.8ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_file (for 127.0.0.1 at 2012-02-07 10:28:08) [GET]
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/images/send_file]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#send_by_email (for 127.0.0.1 at 2012-02-07 10:28:09) [GET]
+  Parameters: {"type"=>"fun_curiosities", "file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/send_by_email
+Rendered images/_back_button (0.8ms)
+Rendered images/_rodape (1.2ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://localhost/images/send_by_email?file=4.jpg&type=fun_curiosities]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:28:10) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (1.0ms)
+Rendered images/_file_info (1.2ms)
+Rendered images/_rodape (1.6ms)
+Completed in 78ms (View: 12, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#fun_curiosities (for 127.0.0.1 at 2012-02-07 10:28:10) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/fun_curiosities
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 74ms (View: 7, DB: 0) | 200 OK [http://localhost/images/fun_curiosities?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:18) [GET]
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (0.9ms)
+Rendered images/_rodape (1.4ms)
+Completed in 75ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:28:19) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (0.8ms)
+Completed in 92ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:19) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.9ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.7ms)
+Completed in 77ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:21) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.8ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.7ms)
+Completed in 77ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:22) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 1) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:23) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.2ms)
+Rendered images/_file_info (1.6ms)
+Rendered images/_rodape (2.3ms)
+Completed in 83ms (View: 16, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:25) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.5ms)
+Rendered images/_file_info (1.2ms)
+Rendered images/_rodape (2.3ms)
+Completed in 83ms (View: 16, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:27) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.6ms)
+Completed in 76ms (View: 9, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:28:36) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.9ms)
+Rendered images/_file_info (1.2ms)
+Rendered images/_rodape (1.7ms)
+Completed in 76ms (View: 10, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:29:10) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 72ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:29:23) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:29:25) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:29:52) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.0ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (1.6ms)
+Completed in 81ms (View: 15, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:29:53) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (0.9ms)
+Completed in 146ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:29:53) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.0ms)
+Rendered images/_file_info (1.0ms)
+Rendered images/_rodape (2.5ms)
+Completed in 80ms (View: 13, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:06) [GET]
+  Parameters: {"file"=>"5.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.8ms)
+Rendered images/_rodape (1.3ms)
+Completed in 81ms (View: 14, DB: 0) | 200 OK [http://localhost/images/cars?file=5.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#index (for 127.0.0.1 at 2012-02-07 10:30:06) [GET]
+Rendering template within layouts/application
+Rendering images/index
+Rendered images/_rodape (1.9ms)
+Completed in 38ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:06) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.2ms)
+Completed in 74ms (View: 7, DB: 1) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:17) [GET]
+  Parameters: {"file"=>"6.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.6ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 74ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=6.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:22) [GET]
+  Parameters: {"file"=>"4.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.5ms)
+Rendered images/_file_info (0.7ms)
+Rendered images/_rodape (1.1ms)
+Completed in 73ms (View: 7, DB: 0) | 200 OK [http://localhost/images/cars?file=4.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:23) [GET]
+  Parameters: {"file"=>"3.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (1.6ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.7ms)
+Completed in 81ms (View: 15, DB: 0) | 200 OK [http://localhost/images/cars?file=3.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ImagesController#cars (for 127.0.0.1 at 2012-02-07 10:30:24) [GET]
+  Parameters: {"file"=>"2.jpg"}
+Rendering template within layouts/application
+Rendering images/cars
+Rendered images/_home_button (0.7ms)
+Rendered images/_file_info (1.1ms)
+Rendered images/_rodape (1.6ms)
+Completed in 77ms (View: 9, DB: 0) | 200 OK [http://localhost/images/cars?file=2.jpg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#terms (for 127.0.0.1 at 2012-02-07 10:30:31) [GET]
+Rendering template within layouts/application
+Rendering pages/terms
+Rendered images/_back_button (0.6ms)
+Rendered images/_rodape (0.8ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/terms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact_us (for 127.0.0.1 at 2012-02-07 10:30:37) [GET]
+Rendering template within layouts/application
+Rendering pages/contact_us
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/contact_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#terms (for 127.0.0.1 at 2012-02-07 10:30:40) [GET]
+Rendering template within layouts/application
+Rendering pages/terms
+Rendered images/_back_button (0.5ms)
+Rendered images/_rodape (0.8ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/terms]
