@@ -16,8 +16,8 @@ ruby script/console
 TODO
 ----
 
-* Add swipe gestures
-* Add social share buttons
+* Add swipe gestures.
+* Add social share buttons.
 
 Support
 -------
