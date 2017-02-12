@@ -1,7 +1,7 @@
 Moby Gallery
 ============
 
-A webapp using jQuery Mobile. Flip through some random pictures!
+Webapp example using Ruby on Rails and jQuery Mobile. Flip through some random pictures!
 
 Usage
 -----
