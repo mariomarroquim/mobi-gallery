@@ -6,9 +6,7 @@ Web app example using Ruby on Rails and jQuery Mobile. Flip through some random 
 Usage
 -----
 
-```
-ruby script/server
-```
+Just follow the steps for running any other Ruby on Rails project.
 
 Support
 -------
